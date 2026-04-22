@@ -2,6 +2,14 @@
 
 A Laravel package for the [ActiveCampaign](https://www.activecampaign.com/) API.
 
+<p align="center" dir="auto">
+<a href="https://github.com/vsimke/laravel-activecampaign/actions"><img src="https://github.com/vsimke/laravel-activecampaign/workflows/tests/badge.svg" alt="Build Status" style="max-width: 100%;"></a>
+<a href="https://packagist.org/packages/vsimke/laravel-activecampaign" rel="nofollow"><img src="https://img.shields.io/packagist/dt/vsimke/laravel-activecampaign" alt="Total Downloads" style="max-width: 100%;"></a>
+<a href="https://packagist.org/packages/vsimke/laravel-activecampaign" rel="nofollow"><img src="https://img.shields.io/packagist/v/vsimke/laravel-activecampaign" alt="Latest Stable Version" style="max-width: 100%;"></a>
+<a href="https://github.com/vsimke/laravel-activecampaign/releases" rel="nofollow"><img src="https://img.shields.io/github/v/tag/vsimke/laravel-activecampaign" alt="GitHub Tag" style="max-width: 100%;"></a>
+<a href="https://packagist.org/packages/vsimke/laravel-activecampaign" rel="nofollow"><img src="https://img.shields.io/packagist/l/vsimke/laravel-activecampaign" alt="License" style="max-width: 100%;"></a>
+</p>
+
 ## Requirements
 
 - PHP 8.2+ (PHP 8.3+ required for Laravel 13)

@@ -29,3 +29,5 @@ composer.lock
 *.swo
 .DS_Store
 Thumbs.db
+
+/.github/release.sh
