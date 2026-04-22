@@ -2,10 +2,10 @@
 
 namespace Vsimke\ActiveCampaign\Endpoints\Contacts;
 
+use GuzzleHttp\Client;
 use Vsimke\ActiveCampaign\Endpoints\UseHttpRequest;
 use Vsimke\ActiveCampaign\Requests\CreateCustomFieldRequest;
 use Vsimke\ActiveCampaign\Requests\UpdateCustomFieldRequest;
-use GuzzleHttp\Client;
 
 /**
  * CustomFields class

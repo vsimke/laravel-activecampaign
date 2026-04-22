@@ -21,7 +21,8 @@
         "orchestra/testbench": "^8.0|^9.0|^10.0|^11.0",
         "larastan/larastan": "^3.9",
         "rector/rector": "^2.4",
-        "driftingly/rector-laravel": "^2.3"
+        "driftingly/rector-laravel": "^2.3",
+        "laravel/pint": "^1.13"
     },
     "autoload": {
         "psr-4": {

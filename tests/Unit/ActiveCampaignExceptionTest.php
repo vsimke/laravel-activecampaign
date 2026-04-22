@@ -1,8 +1,8 @@
 <?php
 
-use GuzzleHttp\Exception\ClientException;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
+use GuzzleHttp\Exception\ClientException;
 use Vsimke\ActiveCampaign\Exceptions\ActiveCampaignException;
 
 it('extracts the error detail from the API response', function (): void {

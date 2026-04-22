@@ -2,12 +2,12 @@
 
 namespace Vsimke\ActiveCampaign\Endpoints\Contacts;
 
-use Vsimke\ActiveCampaign\Endpoints\UseHttpRequest;
-use Vsimke\ActiveCampaign\Requests\BulkCreateContactsRequest;
-use Vsimke\ActiveCampaign\Requests\CreateContactRequest;
 use GuzzleHttp\Client;
-use Illuminate\Support\Collection;
 use InvalidArgumentException;
+use Illuminate\Support\Collection;
+use Vsimke\ActiveCampaign\Endpoints\UseHttpRequest;
+use Vsimke\ActiveCampaign\Requests\CreateContactRequest;
+use Vsimke\ActiveCampaign\Requests\BulkCreateContactsRequest;
 
 /**
  * Contacts class

@@ -2,9 +2,9 @@
 
 namespace Vsimke\ActiveCampaign\Endpoints;
 
-use Vsimke\ActiveCampaign\Exceptions\ActiveCampaignException;
-use GuzzleHttp\Exception\ClientException;
 use GuzzleHttp\Utils;
+use GuzzleHttp\Exception\ClientException;
+use Vsimke\ActiveCampaign\Exceptions\ActiveCampaignException;
 
 trait UseHttpRequest
 {

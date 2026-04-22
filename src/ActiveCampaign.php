@@ -2,10 +2,10 @@
 
 namespace Vsimke\ActiveCampaign;
 
-use Vsimke\ActiveCampaign\Endpoints\Contacts\Contacts;
-use Vsimke\ActiveCampaign\Models\CustomField;
 use GuzzleHttp\Client;
 use InvalidArgumentException;
+use Vsimke\ActiveCampaign\Models\CustomField;
+use Vsimke\ActiveCampaign\Endpoints\Contacts\Contacts;
 
 /**
  * ActiveCampaign class.
@@ -65,7 +65,7 @@ class ActiveCampaign
      */
     public function isConfigured(): bool
     {
-        return !in_array($this->url, [null, '', '0'], true) && !in_array($this->key, [null, '', '0'], true);
+        return ! in_array($this->url, [null, '', '0'], true) && ! in_array($this->key, [null, '', '0'], true);
     }
 
     /**

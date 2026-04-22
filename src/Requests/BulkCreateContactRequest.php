@@ -35,9 +35,7 @@ class BulkCreateContactRequest extends CreateContactRequest
          * The activecampaign configuration array.
          */
         protected array $config = []
-    )
-    {
-    }
+    ) {}
 
     /**
      * Add a tag to the contact by slug.

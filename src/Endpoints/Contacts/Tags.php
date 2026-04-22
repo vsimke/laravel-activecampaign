@@ -2,11 +2,11 @@
 
 namespace Vsimke\ActiveCampaign\Endpoints\Contacts;
 
-use Vsimke\ActiveCampaign\Endpoints\UseHttpRequest;
 use Exception;
 use GuzzleHttp\Client;
-use Illuminate\Support\Collection;
 use InvalidArgumentException;
+use Illuminate\Support\Collection;
+use Vsimke\ActiveCampaign\Endpoints\UseHttpRequest;
 
 /**
  * Tags class

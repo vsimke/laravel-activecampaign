@@ -6,7 +6,7 @@ use Vsimke\ActiveCampaign\Requests\BulkCreateContactRequest;
 use Vsimke\ActiveCampaign\Requests\BulkCreateContactsRequest;
 
 $config = [
-    'tags'  => [
+    'tags' => [
         ['slug' => 'new-lead', 'name' => 'New Lead', 'id' => 10],
     ],
     'lists' => [

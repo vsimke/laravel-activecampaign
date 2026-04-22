@@ -2,8 +2,8 @@
 
 namespace Vsimke\ActiveCampaign;
 
-use Vsimke\ActiveCampaign\Requests\BulkCreateContactRequest;
 use Illuminate\Support\ServiceProvider;
+use Vsimke\ActiveCampaign\Requests\BulkCreateContactRequest;
 
 class ActiveCampaignServiceProvider extends ServiceProvider
 {
@@ -17,7 +17,7 @@ class ActiveCampaignServiceProvider extends ServiceProvider
             'activecampaign'
         );
 
-        $this->app->singleton(ActiveCampaign::class, function (array $app): \Vsimke\ActiveCampaign\ActiveCampaign {
+        $this->app->singleton(ActiveCampaign::class, function (array $app): ActiveCampaign {
             $config = $app['config']['activecampaign'];
 
             return new ActiveCampaign(
@@ -27,7 +27,7 @@ class ActiveCampaignServiceProvider extends ServiceProvider
             );
         });
 
-        $this->app->bind(BulkCreateContactRequest::class, fn($app): \Vsimke\ActiveCampaign\Requests\BulkCreateContactRequest => new BulkCreateContactRequest(
+        $this->app->bind(BulkCreateContactRequest::class, fn ($app): BulkCreateContactRequest => new BulkCreateContactRequest(
             config: $app['config']['activecampaign']
         ));
     }

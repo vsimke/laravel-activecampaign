@@ -17,8 +17,8 @@ class TestCase extends OrchestraTestCase
     protected function getEnvironmentSetUp($app): void
     {
         $app['config']->set('activecampaign', [
-            'url' => 'https://test.api-us1.com',
-            'key' => 'test-api-key',
+            'url'   => 'https://test.api-us1.com',
+            'key'   => 'test-api-key',
             'lists' => [
                 ['slug' => 'newsletter', 'id' => 1],
                 ['slug' => 'affiliates', 'id' => 2],
