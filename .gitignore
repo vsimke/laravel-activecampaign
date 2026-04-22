@@ -1,0 +1,31 @@
+/vendor/
+/node_modules/
+
+# Composer
+composer.lock
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Testing
+/.phpunit.cache/
+/.phpunit.result.cache
+/coverage/
+/clover.xml
+
+# Static analysis
+/.phpstan/
+/.phpstan.cache
+
+# Rector
+/.rector_cache/
+
+# IDEs
+/.idea/
+/.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
