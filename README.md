@@ -4,8 +4,8 @@ A Laravel package for the [ActiveCampaign](https://www.activecampaign.com/) API.
 
 ## Requirements
 
-- PHP 8.2+
-- Laravel 10, 11, or 12
+- PHP 8.2+ (PHP 8.3+ required for Laravel 13)
+- Laravel 10, 11, 12, or 13
 
 ## Installation
 
@@ -238,4 +238,4 @@ $batchId = ActiveCampaign::contacts()->bulkUpdateOrCreate($bulk);
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT — see [LICENSE](https://opensource.org/licenses/MIT).
