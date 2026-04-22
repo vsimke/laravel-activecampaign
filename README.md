@@ -10,6 +10,8 @@ A Laravel package for the [ActiveCampaign](https://www.activecampaign.com/) API.
 <a href="https://packagist.org/packages/vsimke/laravel-activecampaign" rel="nofollow"><img src="https://img.shields.io/packagist/l/vsimke/laravel-activecampaign" alt="License" style="max-width: 100%;"></a>
 </p>
 
+> **⚠️ Beta Release**: This is an early release for testing and community feedback. The API is stable but real-world integration testing is ongoing. Expect minor changes before v1.0.0.
+
 ## Requirements
 
 - PHP 8.2+ (PHP 8.3+ required for Laravel 13)
